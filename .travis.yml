@@ -19,8 +19,6 @@ install:
   - yarn global add bower
   - yarn install
   - bower install
-before_script:
-  - yarn run lint
 script:
   - echo "The test task is disabled."
   - xvfb-run yarn run test

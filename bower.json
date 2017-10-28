@@ -7,15 +7,22 @@
     "date-fns": "^1.28.0",
     "iron-flex-layout": "PolymerElements/iron-flex-layout#^2.0.0",
     "iron-icon": "PolymerElements/iron-icon#^2.0.0",
+    "iron-icons": "PolymerElements/iron-icons#^2.0.0",
     "iron-iconset-svg": "PolymerElements/iron-iconset-svg#^2.0.0",
     "iron-pages": "PolymerElements/iron-pages#^2.0.0",
+    "iron-selector": "PolymerElements/iron-selector#^2.0.0",
     "lazy-imports": "Polymer/lazy-imports#^2.0.0",
     "paper-button": "PolymerElements/paper-button#^2.0.0",
+    "paper-progress": "PolymerElements/paper-progress#^2.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^2.0.0",
     "paper-toast": "PolymerElements/paper-toast#^2.0.0",
-    "polymer": "Polymer/polymer#^2.1.0",
+    "polymer": "Polymer/polymer#^2.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
   },
   "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^2.0.0",
+    "iron-pages": "PolymerElements/iron-pages#^2.0.0",
+    "paper-checkbox": "PolymerElements/paper-checkbox#^2.0.0",
     "web-component-tester": "Polymer/web-component-tester#^6.3.0"
   },
   "private": true

@@ -1,0 +1,29 @@
+language: node_js
+dist: trusty
+sudo: required
+addons:
+  firefox: "latest"
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+node_js:
+  - "6"
+cache:
+  yarn: true
+branches:
+  except:
+    - /^v\d/
+install:
+  - yarn global add polymer-cli
+  - yarn global add bower
+  - yarn install
+  - bower install
+before_script:
+  - yarn run lint
+script:
+  - echo "The test task is disabled."
+  - xvfb-run yarn run test
+after_success:
+  - yarn run build

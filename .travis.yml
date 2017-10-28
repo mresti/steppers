@@ -20,8 +20,6 @@ install:
   - yarn install
   - bower install
 script:
-  - echo "The test task is disabled."
-  - xvfb-run yarn run test
   - xvfb-run polymer test
 after_success:
   - yarn run build

@@ -8,8 +8,7 @@ addons:
       - google-chrome
     packages:
       - google-chrome-stable
-node_js:
-  - "6"
+node_js: stable
 cache:
   yarn: true
 branches:
@@ -25,5 +24,6 @@ before_script:
 script:
   - echo "The test task is disabled."
   - xvfb-run yarn run test
+  - xvfb-run polymer test
 after_success:
   - yarn run build
